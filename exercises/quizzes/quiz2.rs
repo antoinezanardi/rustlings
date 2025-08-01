@@ -31,7 +31,7 @@ mod my_module {
     }
 
     fn trim(str: String) -> String {
-        String::from(str.trim())
+        str.trim().to_string()
     }
 
     fn append_bar(str: String, times: usize) -> String {
